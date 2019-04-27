@@ -43,10 +43,9 @@ sayHiToGrandma('HELLO')
 // sayHiToGrandma(string) returns "I love you, too." if `string` is "I love you, Grandma."
 
 function sayHiToGrandma(string){
-  if (string === "I love you"){
-    return ("I can't hear you!")
-  } else if (string === string.toUpperCase()){
-    return ("YES INDEED!")}
+  if (string === "I love you, Grandma"){
+    return ("I love you yoo.")
+ }
 }
-sayHiToGrandma('HELLO')
+sayHiToGrandma('I love you, Grandma')
 
