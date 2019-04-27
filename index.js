@@ -23,7 +23,7 @@ logWhisper("HELLO!")
 //sayHiToGrandma(string) returns "I can't hear you!" if `string` is lowercase
 
 var uppercase = "HELLO!"
-string.toUpperCase() === uppercase // true
+string === string.toUpperCase() // true
  
 var lowercase = 'hello!'
 lowercase.toLowerCase() === lowercase // true
