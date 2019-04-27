@@ -31,6 +31,7 @@ function sayHiToGrandma(string){
 sayHiToGrandma('hello')
 
 //sayHiToGrandma(string) returns "YES INDEED!" if `string` is toUpperCase
+
 function sayHiToGrandma(string){
   if (string === string.toLowerCase()){
     return ("I can't hear you!")
@@ -39,4 +40,13 @@ function sayHiToGrandma(string){
 }
 sayHiToGrandma('HELLO')
 
-  
+// sayHiToGrandma(string) returns "I love you, too." if `string` is "I love you, Grandma."
+
+function sayHiToGrandma(string){
+  if (string === "I love you"){
+    return ("I can't hear you!")
+  } else if (string === string.toUpperCase()){
+    return ("YES INDEED!")}
+}
+sayHiToGrandma('HELLO')
+
