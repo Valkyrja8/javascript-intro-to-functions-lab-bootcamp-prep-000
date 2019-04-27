@@ -43,9 +43,9 @@ sayHiToGrandma('HELLO')
 // sayHiToGrandma(string) returns "I love you, too." if `string` is "I love you, Grandma."
 
 function sayHiToGrandma(string){
-  if (string === "I love you, Grandma"){
+  if (string === "I love you, Grandma."){
     return ("I love you yoo.")
  }
 }
-sayHiToGrandma('I love you, Grandma')
+sayHiToGrandma("I love you, Grandma.")
 
